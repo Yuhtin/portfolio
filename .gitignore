@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# agent / planning files (kept local, not published)
+CLAUDE.md
+AGENTS.md
+.playwright-mcp/
+
+# scratch / reference images (not used by the site)
+/hero-*.png
+/lov-*.jpeg
+/p[0-9]-*.jpeg
+/v2-hero.jpeg
